@@ -1,0 +1,138 @@
+{
+  "groups": [
+    {
+      "name": "feastogether",
+      "type": "com.feastogether.config.FeastogetherProperties",
+      "sourceType": "com.feastogether.config.FeastogetherProperties"
+    },
+    {
+      "name": "feastogether.api",
+      "type": "com.feastogether.config.FeastogetherProperties$ApiProperties",
+      "sourceType": "com.feastogether.config.FeastogetherProperties"
+    },
+    {
+      "name": "feastogether.params",
+      "type": "com.feastogether.config.FeastogetherProperties$ParamProperties",
+      "sourceType": "com.feastogether.config.FeastogetherProperties"
+    },
+    {
+      "name": "feastogether.restaurant",
+      "type": "com.feastogether.config.FeastogetherProperties$RestaurantProperties",
+      "sourceType": "com.feastogether.config.FeastogetherProperties"
+    },
+    {
+      "name": "feastogether.user",
+      "type": "com.feastogether.config.FeastogetherProperties$UserProperties",
+      "sourceType": "com.feastogether.config.FeastogetherProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "feastogether.api.booking",
+      "type": "java.lang.String",
+      "description": "確認訂位 API",
+      "sourceType": "com.feastogether.config.FeastogetherProperties$ApiProperties"
+    },
+    {
+      "name": "feastogether.api.login",
+      "type": "java.lang.String",
+      "description": "登入 API",
+      "sourceType": "com.feastogether.config.FeastogetherProperties$ApiProperties"
+    },
+    {
+      "name": "feastogether.api.save-seats",
+      "type": "java.lang.String",
+      "description": "鎖定座位 API",
+      "sourceType": "com.feastogether.config.FeastogetherProperties$ApiProperties"
+    },
+    {
+      "name": "feastogether.api.svg",
+      "type": "java.lang.String",
+      "description": "SVG 驗證碼 API",
+      "sourceType": "com.feastogether.config.FeastogetherProperties$ApiProperties"
+    },
+    {
+      "name": "feastogether.params.brand-id",
+      "type": "java.lang.String",
+      "description": "SVG brandId",
+      "sourceType": "com.feastogether.config.FeastogetherProperties$ParamProperties"
+    },
+    {
+      "name": "feastogether.params.store-code",
+      "type": "java.lang.String",
+      "description": "Booking storeCode",
+      "sourceType": "com.feastogether.config.FeastogetherProperties$ParamProperties"
+    },
+    {
+      "name": "feastogether.params.yuuu",
+      "type": "java.lang.String",
+      "description": "Booking 必填硬編碼參數（3\/30 新增）",
+      "sourceType": "com.feastogether.config.FeastogetherProperties$ParamProperties"
+    },
+    {
+      "name": "feastogether.params.zked",
+      "type": "java.lang.String",
+      "description": "SaveSeats 必填硬編碼參數",
+      "sourceType": "com.feastogether.config.FeastogetherProperties$ParamProperties"
+    },
+    {
+      "name": "feastogether.restaurant.meal-date",
+      "type": "java.lang.String",
+      "description": "用餐日期：yyyy-MM-dd",
+      "sourceType": "com.feastogether.config.FeastogetherProperties$RestaurantProperties"
+    },
+    {
+      "name": "feastogether.restaurant.meal-period",
+      "type": "java.lang.String",
+      "description": "用餐時段：lunch \/ tea \/ dinner",
+      "sourceType": "com.feastogether.config.FeastogetherProperties$RestaurantProperties"
+    },
+    {
+      "name": "feastogether.restaurant.meal-time",
+      "type": "java.lang.String",
+      "description": "用餐時間：11:30 \/ 12:00 \/ 14:30 \/ 17:30 \/ 18:00 \/ 18:30",
+      "sourceType": "com.feastogether.config.FeastogetherProperties$RestaurantProperties"
+    },
+    {
+      "name": "feastogether.restaurant.people-count",
+      "type": "java.lang.Integer",
+      "description": "用餐人數",
+      "sourceType": "com.feastogether.config.FeastogetherProperties$RestaurantProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "feastogether.restaurant.store-id",
+      "type": "java.lang.String",
+      "description": "餐廳門店 ID",
+      "sourceType": "com.feastogether.config.FeastogetherProperties$RestaurantProperties"
+    },
+    {
+      "name": "feastogether.user.account",
+      "type": "java.lang.String",
+      "description": "用戶帳號（手機號碼）",
+      "sourceType": "com.feastogether.config.FeastogetherProperties$UserProperties"
+    },
+    {
+      "name": "feastogether.user.ga",
+      "type": "java.lang.String",
+      "description": "_ga cookie",
+      "sourceType": "com.feastogether.config.FeastogetherProperties$UserProperties"
+    },
+    {
+      "name": "feastogether.user.ga9pqxqp3qd6",
+      "type": "java.lang.String",
+      "description": "_ga_9PQXQP3QD6 cookie",
+      "sourceType": "com.feastogether.config.FeastogetherProperties$UserProperties"
+    },
+    {
+      "name": "feastogether.user.password",
+      "type": "java.lang.String",
+      "description": "用戶密碼",
+      "sourceType": "com.feastogether.config.FeastogetherProperties$UserProperties"
+    }
+  ],
+  "hints": [],
+  "ignored": {
+    "properties": []
+  }
+}

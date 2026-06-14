@@ -1,0 +1,26 @@
+server:
+  port: 8080
+
+feastogether:
+  api:
+    login: https://www.feastogether.com.tw/api/994f5388-d001-4ca4-a7b1-72750d4211cf/custSignIn
+    svg: https://www.feastogether.com.tw/api/994f5388-d001-4ca4-a7b1-72750d4211cf/get2FASvgByBrand
+    save-seats: https://www.feastogether.com.tw/api/booking/saveSeats
+    booking: https://www.feastogether.com.tw/api/booking/booking
+  user:
+    account: ""
+    password: ""
+    ga: ""
+    ga-9pqxqp3qd6: ""
+  restaurant:
+    store-id: S2212290001
+    people-count: 2
+    meal-period: lunch
+    meal-date: "2023-01-01"
+    meal-time: "11:30"
+  # 硬編碼參數（從 Go 版提取至設定檔，方便未來更新）
+  params:
+    zked: "1j6ul4y94ejru6xk7vu4vu4"
+    yuuu: "892389djdj883831445"
+    store-code: "NTBQ"
+    brand-id: "BR00008"
