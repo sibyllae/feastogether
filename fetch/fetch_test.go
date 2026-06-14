@@ -20,6 +20,7 @@ type Situation struct {
 	PeopleCount int    `json:"peopleCount"`
 }
 
+// TestPost 用於測試 POST 請求，向 API 發送用餐情況的請求，並打印返回的數據。
 func TestPost(t *testing.T) {
 	if cfg, err := config.GetConfig(".."); err != nil {
 		log.Println(err)
